@@ -97,17 +97,23 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+	body {
+		width: 100%;
+	}
+
 	.caixa {
 		width: 100%;
 	}
 
 	.produtos {
 		text-align: center;
+		width: 100%;
 	}
 	.produtos li {
 		display: block;
 		margin-bottom: 1em;
-		margin-left: 3em;
+		margin-left: 2.5em;
+		width: 80%;
 	}
 }
 
@@ -294,34 +300,32 @@ td, th {
 		position: static;
 	}
 
+	.principal > h2 {
+		font-size: 1.5em;
+	}
 	.principal p {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
 
 	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
+		width: 90%;
+	}
+	.imagem-beneficios, .mapa-conteudo, .video {
+		text-align: center;
+	}
+	.lista-beneficios {
+		padding-left: 1em;
+		padding-bottom: 1em;
+	}
+	.imagem-beneficios {
+		padding-left: 1em;
 	}
 
-	.lista-beneficios {
-		padding-bottom: 1em;
-		padding-left: 1em;
-	}
-	
-	.mapa-conteudo {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
 	.mapa > h3 {
 		padding-left: 1em;
 		padding-right: 1em;
 		font-size: 1.5em;
 	}
-	
-	.video {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-
 
 }
